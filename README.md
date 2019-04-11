@@ -21,3 +21,17 @@ $ git cherry-pick LOST_COMMIT_SHA1
 
 
 **Note** Will be cleaned uo once 'git gc' ran 
+
+### git blame // historie einer datei anzeigen lassen 
+
+$ git blame README.md
+
+### Getting Information out of history
+
+Use 'git log --oneline --graph' to get condensed log view. 
+
+Use 'git blame' to see **last** change for each line
+
+Use ´git show COMMIT_SHA1' to get detailed information about commit(including diff) 
+
+Use 'git log -S' to search in contents of commit 
