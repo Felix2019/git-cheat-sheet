@@ -10,3 +10,5 @@ $ cd REPO Name
 To ignore files add them to 'gitignore': 
 
 log/*.log 
+
+To just add part to the indewe can use `git add -p` 
